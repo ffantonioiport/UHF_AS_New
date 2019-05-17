@@ -1,11 +1,11 @@
 # UHF_AS_New
-新版R2000库使用，读写盘点数据通过回调返回
+The new version of the R2000 library is used, and the read and write count data is returned by callback.
 
-##  导入依赖库
-**AndroidStudio** build.gradle中的dependencies中添加
+##  Import dependent library
+**AndroidStudio** Added in dependencies in build.gradle
 
 ```
-//最外层build.gradle
+//Outer layer build.gradle
 allprojects {
     repositories {
         jcenter()
@@ -18,17 +18,17 @@ allprojects {
     compile 'com.github.SpeedataG:UHF:7.8.3'
   }
 ```
-## 低电使用说明
-  * 电池电量低于15% 禁止使用超高频
+## Low battery usage instructions
+  * Battery power is less than 15%. UHF is forbidden.
   
-## API文档
+## API documentation
 
-	详细的接口说明在showdoc，地址：http://www.showdoc.cc/web/#/79868361520440?page_id=452063154391852
+	Detailed interface description in showdoc，地址：http://www.showdoc.cc/web/#/79868361520440?page_id=452063154391852
 
-北京思必拓科技股份有限公司
+Beijing Spirent Technology Co., Ltd.
 
-网址 http://www.speedata.cn/
+URL http://www.speedata.cn/
 
-技术支持 电话：155 4266 8023
+Technical support Tel: 155 4266 8023
 
 QQ：2480737278
